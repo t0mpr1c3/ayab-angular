@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--mat-toolbar-container-background-color);
+  padding: 0 10px 10px 10px;
+  display: grid;
+  grid-template-columns: auto 232px;
+  grid-column-gap: 10px;
+}
+.canvas {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #DDD;
+  background-color: #FFF;
+}
+.options {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #DDD;
+  background-color: #FFF;
+}
+mat-form-field.custom > .mat-mdc-form-field-infix {
+  padding-bottom: 8px;
+  min-height: 48px;
+}
+mat-form-field.custom > .mat-mdc-form-field-bottom-align::before {
+  height: 8px;
+}
+mat-form-field.custom > .mat-mdc-form-field-hint-spacer {
+  flex-basis: 8px;
+}

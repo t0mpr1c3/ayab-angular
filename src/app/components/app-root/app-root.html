@@ -1,0 +1,15 @@
+<toolbar>toolbar</toolbar>
+<div class="container">
+  <div class="canvas"><p>Lorem ipsum</p></div>
+  <div class="options">
+    <options-form></options-form>
+    <port-select></port-select>
+    <mat-divider></mat-divider>
+    <generic-select name="Knitting Mode" [enum]="modeEnum"></generic-select>
+    <colors-input></colors-input>
+    <row-input></row-input>
+    <needle-input></needle-input>
+    <generic-select name="Alignment" [enum]="alignmentEnum"></generic-select>
+    <generic-checkbox name="Knit Side Image" (clicked)="knitSideImageCheckboxClicked($event)"></generic-checkbox>
+  </div>
+</div>
